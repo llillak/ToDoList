@@ -4,12 +4,6 @@
 
 This website is created to provide information and resources for Erasmus students. It includes details about the Erasmus program, application processes, student experiences, and useful resources. The website aims to be a comprehensive guide for current and prospective Erasmus students.
 
-# Erasmus Website
-
-## Overview
-
-This website is created to provide information and resources for Erasmus students. It includes details about the Erasmus program, application processes, student experiences, and useful resources. The website aims to be a comprehensive guide for current and prospective Erasmus students.
-
 ## Author
 
 - **Aniela Maciejek**
@@ -38,11 +32,3 @@ To get a copy of the website up and running on your local machine for developmen
    ```bash
    git clone https://github.com/yourusername/erasmus-website.git
 
-
-## Getting Started
-
-To get a copy of the website up and running on your local machine for development and testing purposes, follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/erasmus-website.git
