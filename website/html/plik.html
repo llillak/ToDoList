@@ -1,18 +1,37 @@
-<link rel="stylesheet" href="../css/style.css"></link>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To dos</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  
-    
     <header>
-        <h1 class="text">Hola! Yo Soy Dora</h1>
+        <h1 class="head">Todos</h1>
     </header>
-    
-    <div class="card"> 
-        <img src="" alt="">
-    </div>
+    <lable for="todo-input" ></lable></br>
+    <input type="text" class="list" id="todo-input" placeholder="What needs to be done?">
+    <button onclick="addToDo()"></button>
+    <ul id="todo-list"> </ul>
+        <script>
+            function addToDo(){
+                var ToDoInput = document.getElementById("todo-input");
+                var ToDoText = ToDoInput.value.trim();
 
-    <div class="circle"></div>
-    <div class="circle1"></div>
+                if (ToDoText === ""){
+                    alert("You need to write something to add to list!");
+                    return;
+                }
 
+                var ToDoList = document.getElementById("todo-list");
+                var li = document.createElement("li");
+                li.textContent = ToDoText;
+                ToDoList.appendChild(li);
+                ToDoInput.value = "";
+
+        }
+        </script>
+   
 </body>
 </html>
