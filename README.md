@@ -2,7 +2,7 @@
 
 ## Overview
 
-This website is created to provide information and resources for Erasmus students. It includes details about the Erasmus program, application processes, student experiences, and useful resources. The website aims to be a comprehensive guide for current and prospective Erasmus students.
+Basic trello for adding tasks to list
 
 ## Author
 
