@@ -6,9 +6,9 @@ function App() {
 
   return (
     <>
-      <Counter />
-      <Counter />
-      <Counter />
+      <Counter val={5}/>
+      <Counter val={10}/>
+      <Counter val={15}/>
     </>
   )
 }
