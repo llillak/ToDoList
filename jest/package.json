@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "test": "jest"
+    },
+    "name": "jest",
+    "version": "1.0.0",
+    "main": "math.js",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}
